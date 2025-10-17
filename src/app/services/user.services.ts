@@ -7,7 +7,7 @@ import { User, ApiResponse } from '../interfaces/user.interfaces';
   providedIn: 'root'
 })
 export class UserService {
-  private apiUrl = 'http://https://backend-3fj3.onrender.com/api';
+  private apiUrl = 'https://backend-3fj3.onrender.com/api';
 
   constructor(private http: HttpClient) { }
 
